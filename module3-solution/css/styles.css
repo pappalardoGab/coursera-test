@@ -1,0 +1,84 @@
+* {
+    font-family: sans-serif;
+}
+/** HEADER **/
+#headerNav {
+    background-color: #b8cca5;
+    border-radius: 0px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+#brandName {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav > .container {
+    margin-left: 0px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000;
+}
+
+#navList {
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #d8e3ce;
+}
+
+#navList a {
+    padding: 2px;
+}
+
+#navList a span {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: #b8cca5;
+}
+
+/** BODY **/
+h1 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+#containerId {
+    width: 100%;
+}
+
+#grid {
+    width: 100%;
+}
+
+#longSection {
+    background-color: #b8cca5;
+    color: #000;
+    font-size: 1.2em;
+    padding: 15px;
+    margin: 15px;
+}
+
+#longSection > div {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 575px) {
+    #grid {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
